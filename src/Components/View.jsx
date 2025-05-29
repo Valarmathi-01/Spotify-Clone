@@ -10,7 +10,7 @@ function View() {
 const isAlbum = location.pathname.includes("album");
 const AlbumId =isAlbum?location.pathname.slice(-1):"";
 const bgclr= albumsData[Number(AlbumId)].bgColor;
-console .log(bgclr);
+
 
 useEffect(()=>{
   if(isAlbum)
