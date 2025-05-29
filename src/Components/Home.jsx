@@ -12,6 +12,7 @@ function Home() {
            <View/>
         </div>
       <Player/>
+     
     </div>
   )
 }
